@@ -1,0 +1,34 @@
+Manejo de estado
+Es la forma de recordar información del usuario entre paginas
+    Saber quien esta logeada
+    Recordar un nombre
+    Mantener una sesión activa
+    Guardar preferencias
+
+🧠 ¿QUÉ ES UNA SESIÓN?
+Una sesión es información que el servidor guarda sobre el usuario 
+mientras navega por el sitio
+
+📌 A diferencia de la cookie:
+la información NO se guarda en el navegador
+se guarda en el servidor
+
+🧭 ¿CÓMO FUNCIONA UNA SESIÓN? (RECORRIDO)
+SERVIDOR ──► crea sesión ──► ID
+NAVEGADOR ──► guarda ID ──► cookie
+NAVEGADOR ──► envía ID ──► SERVIDOR
+👉 El navegador solo guarda un identificador, no los datos.
+
+🧠 ¿PARA QUÉ SE USAN LAS SESIONES?
+Login de usuarios
+Carrito de compras
+Panel de administración
+Información sensible
+
+⚠️ IMPORTANTE SOBRE SESIONES
+✔ Más seguras que las cookies
+✔ Información privada
+❌ Se pierden al cerrar el navegador (por defecto)
+
+Una sesión permite almacenar información del usuario en el servidor
+durante su navegación
