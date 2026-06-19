@@ -1,5 +1,5 @@
 <?php
-//front controller
+//front controller -> Punto de entrada
 require_once __DIR__ . "/../app/controllers/UsuarioController.php";
 
 //Router simple por GET
